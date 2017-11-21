@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
 
     
+    @IBOutlet weak var name: UITextField!
     @IBAction func handle(_ sender: Any) {
         
     }
@@ -29,7 +30,7 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        resultViewController.text = ""
+        resultViewController.text = textfield
         
     }
     

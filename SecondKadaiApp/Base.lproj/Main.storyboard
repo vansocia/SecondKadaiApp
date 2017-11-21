@@ -63,6 +63,9 @@
                             <constraint firstItem="KAY-6K-qHb" firstAttribute="leading" secondItem="XYI-ls-TEa" secondAttribute="leading" id="tgL-fD-7r0"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="name" destination="KAY-6K-qHb" id="Ktw-Vu-kvx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
