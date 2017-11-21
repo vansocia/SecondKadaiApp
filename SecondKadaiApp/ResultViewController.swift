@@ -2,7 +2,7 @@
 //  ResultViewController.swift
 //  SecondKadaiApp
 //
-//  Created by 櫻井 謙充 on 2017/11/19.
+//  Created by 櫻井 謙充 on 2017/11/21.
 //  Copyright © 2017年 vansocia. All rights reserved.
 //
 

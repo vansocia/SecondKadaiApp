@@ -14,9 +14,9 @@
 		462CB0721FC1B03200055ECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462CB0701FC1B03200055ECF /* LaunchScreen.storyboard */; };
 		462CB07D1FC1B03200055ECF /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB07C1FC1B03200055ECF /* SecondKadaiAppTests.swift */; };
 		462CB0881FC1B03200055ECF /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0871FC1B03200055ECF /* SecondKadaiAppUITests.swift */; };
-		46A1DA321FC42615005A548F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1DA311FC42615005A548F /* ResultViewController.swift */; };
-		46A1DA331FC42625005A548F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1DA311FC42615005A548F /* ResultViewController.swift */; };
-		46A1DA341FC42627005A548F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1DA311FC42615005A548F /* ResultViewController.swift */; };
+		46A1DA3A1FC4369A005A548F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1DA391FC4369A005A548F /* ResultViewController.swift */; };
+		46A1DA3B1FC4369A005A548F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1DA391FC4369A005A548F /* ResultViewController.swift */; };
+		46A1DA3C1FC4369A005A548F /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A1DA391FC4369A005A548F /* ResultViewController.swift */; };
 		46B907E11FC4121C00EB755F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0691FC1B03200055ECF /* ViewController.swift */; };
 		46B907E21FC4121E00EB755F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0691FC1B03200055ECF /* ViewController.swift */; };
 		46B907E51FC4127D00EB755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462CB06E1FC1B03200055ECF /* Assets.xcassets */; };
@@ -56,7 +56,7 @@
 		462CB0831FC1B03200055ECF /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		462CB0871FC1B03200055ECF /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		462CB0891FC1B03200055ECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		46A1DA311FC42615005A548F /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		46A1DA391FC4369A005A548F /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,6 @@
 		462CB05B1FC1B03200055ECF = {
 			isa = PBXGroup;
 			children = (
-				46A1DA311FC42615005A548F /* ResultViewController.swift */,
 				462CB0661FC1B03200055ECF /* SecondKadaiApp */,
 				462CB07B1FC1B03200055ECF /* SecondKadaiAppTests */,
 				462CB0861FC1B03200055ECF /* SecondKadaiAppUITests */,
@@ -110,6 +109,7 @@
 			children = (
 				462CB0671FC1B03200055ECF /* AppDelegate.swift */,
 				462CB06B1FC1B03200055ECF /* Main.storyboard */,
+				46A1DA391FC4369A005A548F /* ResultViewController.swift */,
 				462CB0691FC1B03200055ECF /* ViewController.swift */,
 				462CB06E1FC1B03200055ECF /* Assets.xcassets */,
 				462CB0701FC1B03200055ECF /* LaunchScreen.storyboard */,
@@ -274,7 +274,7 @@
 			files = (
 				462CB06A1FC1B03200055ECF /* ViewController.swift in Sources */,
 				462CB0681FC1B03200055ECF /* AppDelegate.swift in Sources */,
-				46A1DA321FC42615005A548F /* ResultViewController.swift in Sources */,
+				46A1DA3A1FC4369A005A548F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +285,7 @@
 				46B907E71FC4128900EB755F /* AppDelegate.swift in Sources */,
 				46B907E11FC4121C00EB755F /* ViewController.swift in Sources */,
 				462CB07D1FC1B03200055ECF /* SecondKadaiAppTests.swift in Sources */,
-				46A1DA331FC42625005A548F /* ResultViewController.swift in Sources */,
+				46A1DA3B1FC4369A005A548F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,7 +296,7 @@
 				46B907E81FC4128A00EB755F /* AppDelegate.swift in Sources */,
 				46B907E21FC4121E00EB755F /* ViewController.swift in Sources */,
 				462CB0881FC1B03200055ECF /* SecondKadaiAppUITests.swift in Sources */,
-				46A1DA341FC42627005A548F /* ResultViewController.swift in Sources */,
+				46A1DA3C1FC4369A005A548F /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

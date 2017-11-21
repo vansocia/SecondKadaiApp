@@ -10,10 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var label: UILabel!
+
     
     @IBAction func handle(_ sender: Any) {
-    label.text = "result"
+        
     }
     
     override func viewDidLoad() {
@@ -27,10 +27,6 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // segueから遷移先のResultViewControllerを取得する
-        let resultViewController:ResultViewController = segue.destination as! ResultViewController
-        //
-        resultViewController.x = 1
         
     }
     
