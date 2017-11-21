@@ -15,6 +15,14 @@
 		462CB07D1FC1B03200055ECF /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB07C1FC1B03200055ECF /* SecondKadaiAppTests.swift */; };
 		462CB0881FC1B03200055ECF /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0871FC1B03200055ECF /* SecondKadaiAppUITests.swift */; };
 		46B907E01FC3E11600EB755F /* ResutlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B907DF1FC3E11600EB755F /* ResutlViewController.swift */; };
+		46B907E11FC4121C00EB755F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0691FC1B03200055ECF /* ViewController.swift */; };
+		46B907E21FC4121E00EB755F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0691FC1B03200055ECF /* ViewController.swift */; };
+		46B907E31FC4126500EB755F /* ResutlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B907DF1FC3E11600EB755F /* ResutlViewController.swift */; };
+		46B907E41FC4126600EB755F /* ResutlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B907DF1FC3E11600EB755F /* ResutlViewController.swift */; };
+		46B907E51FC4127D00EB755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462CB06E1FC1B03200055ECF /* Assets.xcassets */; };
+		46B907E61FC4127E00EB755F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462CB06E1FC1B03200055ECF /* Assets.xcassets */; };
+		46B907E71FC4128900EB755F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0671FC1B03200055ECF /* AppDelegate.swift */; };
+		46B907E81FC4128A00EB755F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462CB0671FC1B03200055ECF /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B907E51FC4127D00EB755F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B907E61FC4127E00EB755F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B907E71FC4128900EB755F /* AppDelegate.swift in Sources */,
+				46B907E11FC4121C00EB755F /* ViewController.swift in Sources */,
 				462CB07D1FC1B03200055ECF /* SecondKadaiAppTests.swift in Sources */,
+				46B907E31FC4126500EB755F /* ResutlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B907E81FC4128A00EB755F /* AppDelegate.swift in Sources */,
+				46B907E21FC4121E00EB755F /* ViewController.swift in Sources */,
 				462CB0881FC1B03200055ECF /* SecondKadaiAppUITests.swift in Sources */,
+				46B907E41FC4126600EB755F /* ResutlViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
