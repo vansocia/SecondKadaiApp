@@ -43,7 +43,7 @@
                                 <state key="normal" title="クリック！"/>
                                 <connections>
                                     <action selector="handle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XdU-U1-V7f"/>
-                                    <segue destination="Ejt-fT-RkV" kind="show" id="ygS-Vi-muo"/>
+                                    <segue destination="Ejt-fT-RkV" kind="show" id="YB3-WS-h5t"/>
                                 </connections>
                             </button>
                         </subviews>
