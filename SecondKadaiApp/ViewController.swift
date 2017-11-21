@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     @IBAction func handle(_ sender: Any) {
-    label.text = "Swift"
+    label.text = "result"
     }
     
     override func viewDidLoad() {
@@ -25,9 +25,20 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // segueから遷移先のResultViewControllerを取得する
+        let resultViewController:ResultViewController = segue.destination as! ResultViewController
+        //
+        resultViewController.x = 1
+        
     }
     
+    
+    @IBAction func unwind(_ segue: UIStoryboardSegue) {
+    }
+  
+
 
 }
 
